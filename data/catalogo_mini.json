@@ -1,0 +1,167 @@
+{
+  "conglome": {
+    "etiqueta": "Numero de Conglomerado",
+    "valores": {}
+  },
+  "vivienda": {
+    "etiqueta": "Numero de Seleccion de Vivienda",
+    "valores": {}
+  },
+  "hogar": {
+    "etiqueta": "Numero secuencial del Hogar",
+    "valores": {}
+  },
+  "ubigeo": {
+    "etiqueta": "Ubicacion geográfica",
+    "valores": {}
+  },
+  "dominio": {
+    "etiqueta": "Dominio Geográfico",
+    "valores": {
+      "1.0": "Costa Norte",
+      "2.0": "Costa Centro",
+      "3.0": "Costa Sur",
+      "4.0": "Sierra Norte",
+      "5.0": "Sierra Centro",
+      "6.0": "Sierra Sur",
+      "7.0": "Selva",
+      "8.0": "Lima Metropolitana"
+    }
+  },
+  "estrato": {
+    "etiqueta": "Estrato Geográfico",
+    "valores": {
+      "1.0": " De 500 000 a más habitantes",
+      "2.0": " De 100 000 a 499 999 habitantes",
+      "3.0": " De 50 000 a 99 999 habitantes",
+      "4.0": " De 20 000 a 49 999 habitantes",
+      "5.0": "De 2 000 a 19 999 habitantes",
+      "6.0": " De 500 a 1 999 habitantes",
+      "7.0": "Area de Empadronamiento Rural (AER) Compuesto",
+      "8.0": "Area de Empadronamiento Rural (AER) Simple"
+    }
+  },
+  "mieperho": {
+    "etiqueta": "Total de miembros del hogar",
+    "valores": {}
+  },
+  "percepho": {
+    "etiqueta": "Total de perceptores de Ingresos",
+    "valores": {}
+  },
+  "inghog1d": {
+    "etiqueta": "Ingreso bruto",
+    "valores": {}
+  },
+  "inghog2d": {
+    "etiqueta": "Ingreso neto Total",
+    "valores": {}
+  },
+  "gashog1d": {
+    "etiqueta": "Gasto monetario",
+    "valores": {}
+  },
+  "gashog2d": {
+    "etiqueta": "Gasto Total bruto",
+    "valores": {}
+  },
+  "pobreza": {
+    "etiqueta": "Pobreza",
+    "valores": {
+      "1.0": "Pobre Extremo",
+      "2.0": "Pobre No Extremo",
+      "3.0": "No Pobre"
+    }
+  },
+  "pobrezav": {
+    "etiqueta": "Pobreza y vulnerable con linea corriente",
+    "valores": {
+      "1.0": "Pobre extremo",
+      "2.0": "Pobre No extremo",
+      "3.0": "Vulnerable No pobre",
+      "4.0": "No Vulnerable"
+    }
+  },
+  "linea": {
+    "etiqueta": "Linea de pobreza total",
+    "valores": {}
+  },
+  "linpe": {
+    "etiqueta": "Linea de pobreza alimentaria",
+    "valores": {}
+  },
+  "factor07": {
+    "etiqueta": "Factor de Expansion Anual Proyecciones CPV-2007",
+    "valores": {}
+  },
+  "t110": {
+    "etiqueta": "(Re-codificado ) El abastecimiento de agua en su hogar procede de:",
+    "valores": {
+      "1.0": "Red publica, dentro de la vivienda",
+      "2.0": "Red publica, fuera de la vivienda pero dentro del edificio",
+      "3.0": "Pilon o pileta de uso publico",
+      "4.0": "Camion - cisterna u otro similar",
+      "5.0": "Pozo (agua subterranea)",
+      "6.0": "Manantial o puquio",
+      "7.0": "Otra",
+      "8.0": "Rio, acequia, lago, laguna",
+      "9.0": "Agua potable del vecino"
+    }
+  },
+  "p110": {
+    "etiqueta": "El agua que utilizan en el hogar ¿Procede principalmente de:",
+    "valores": {
+      "1.0": "Red publica, dentro de la vivienda",
+      "2.0": "Red publica, fuera de la vivienda pero dentro del edificio",
+      "3.0": "Pilon o pileta de uso publico",
+      "4.0": "Camion-cisterna u otro similar",
+      "5.0": "Pozo (agua subterranea)",
+      "6.0": "Manantial o puquio",
+      "7.0": "Otra",
+      "8.0": "Rio, acequia, lago, laguna"
+    }
+  },
+  "p110a1": {
+    "etiqueta": "¿El agua es potable?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p110c": {
+    "etiqueta": "El hogar tiene acceso al servicio de agua todos los dias de la semana",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "t111a": {
+    "etiqueta": "Recodificada  El baño o servicio higienico que tiene su hogar",
+    "valores": {
+      "1.0": "Red publica de desagüe dentro de la vivienda",
+      "2.0": "Red publica de desagüe fuera de la vivienda pero dentro del edificio",
+      "3.0": "Letrina (Con tratamiento)",
+      "4.0": "Pozo septico, tanque septico o biodigestor",
+      "5.0": "Pozo ciego o negro",
+      "6.0": "Rio, acequia, canal o similar",
+      "7.0": "Otra",
+      "9.0": "Campo abierto o al aire libre",
+      "10.0": "Letrina (Sin tratamiento)",
+      "11.0": "Letrina (Tipo compostera)"
+    }
+  },
+  "p1121": {
+    "etiqueta": "Tipo de alumbrado del hogar: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Electricidad"
+    }
+  },
+  "p1131": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Electricidad"
+    }
+  }
+}
