@@ -1,0 +1,2510 @@
+{
+  "año": {
+    "etiqueta": "Año de la Encuesta",
+    "valores": {}
+  },
+  "mes": {
+    "etiqueta": "Mes de Ejecucion de la Encuesta",
+    "valores": {}
+  },
+  "conglome": {
+    "etiqueta": "Numero de Conglomerado",
+    "valores": {}
+  },
+  "vivienda": {
+    "etiqueta": "Numero de Seleccion de Vivienda",
+    "valores": {}
+  },
+  "hogar": {
+    "etiqueta": "Numero secuencial del Hogar",
+    "valores": {}
+  },
+  "ubigeo": {
+    "etiqueta": "Ubicacion geográfica",
+    "valores": {}
+  },
+  "dominio": {
+    "etiqueta": "Dominio Geográfico",
+    "valores": {
+      "1.0": "Costa Norte",
+      "2.0": "Costa Centro",
+      "3.0": "Costa Sur",
+      "4.0": "Sierra Norte",
+      "5.0": "Sierra Centro",
+      "6.0": "Sierra Sur",
+      "7.0": "Selva",
+      "8.0": "Lima Metropolitana"
+    }
+  },
+  "estrato": {
+    "etiqueta": "Estrato Geográfico",
+    "valores": {
+      "1.0": " De 500 000 a más habitantes",
+      "2.0": " De 100 000 a 499 999 habitantes",
+      "3.0": " De 50 000 a 99 999 habitantes",
+      "4.0": " De 20 000 a 49 999 habitantes",
+      "5.0": "De 2 000 a 19 999 habitantes",
+      "6.0": " De 500 a 1 999 habitantes",
+      "7.0": "Area de Empadronamiento Rural (AER) Compuesto",
+      "8.0": "Area de Empadronamiento Rural (AER) Simple"
+    }
+  },
+  "mieperho": {
+    "etiqueta": "Total de miembros del hogar",
+    "valores": {}
+  },
+  "totmieho": {
+    "etiqueta": "Total de personas en el hogar",
+    "valores": {}
+  },
+  "percepho": {
+    "etiqueta": "Total de perceptores de Ingresos",
+    "valores": {}
+  },
+  "ia01hd": {
+    "etiqueta": "Ingreso alquiler imputado de la vivienda",
+    "valores": {}
+  },
+  "ia02hd": {
+    "etiqueta": "Ingreso por transferencia de alquiler",
+    "valores": {}
+  },
+  "ig03hd1": {
+    "etiqueta": "Credito, compra casa, departamento",
+    "valores": {}
+  },
+  "ig03hd2": {
+    "etiqueta": "Credito, comprar terreno para vivienda",
+    "valores": {}
+  },
+  "ig03hd3": {
+    "etiqueta": "Credito mejoramiento y/o ampliacion de la vivienda",
+    "valores": {}
+  },
+  "ig03hd4": {
+    "etiqueta": "Credito,construccion de nueva vivienda",
+    "valores": {}
+  },
+  "ga03hd": {
+    "etiqueta": "Gasto por alquiler",
+    "valores": {}
+  },
+  "ga04hd": {
+    "etiqueta": "Gasto por alquiler imputado",
+    "valores": {}
+  },
+  "sg23": {
+    "etiqueta": "Gastos por Alimentos para consumir dentro del hogar",
+    "valores": {}
+  },
+  "sig24": {
+    "etiqueta": "Ingresos y Gastos por Alimentos para consumir en el hogar",
+    "valores": {}
+  },
+  "sg25": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar (menores de 14 años)",
+    "valores": {}
+  },
+  "sig26": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar (menores de 14 años)",
+    "valores": {}
+  },
+  "sg27": {
+    "etiqueta": "Gastos por alimentos consumidos por ollas comunes",
+    "valores": {}
+  },
+  "sig28": {
+    "etiqueta": "Ingresos y gastos por alimentos consumidos por ollas comunes",
+    "valores": {}
+  },
+  "sg42": {
+    "etiqueta": "Gastos por equipamiento del hogar comprados- equipos tv, computadora ,sonido",
+    "valores": {}
+  },
+  "sg421": {
+    "etiqueta": "Gastos por equipamiento del hogar comprados- electrodomesticos",
+    "valores": {}
+  },
+  "sg422": {
+    "etiqueta": "Gastos por equipamiento del hogar comprados - transporte",
+    "valores": {}
+  },
+  "sg423": {
+    "etiqueta": "Gastos por equipamiento del hogar comprados- otros",
+    "valores": {}
+  },
+  "sg42d": {
+    "etiqueta": "Gastos por equipamiento del hogar adquiridos - equipos tv, computadora, sonido",
+    "valores": {}
+  },
+  "sg42d1": {
+    "etiqueta": "Gastos por equipamiento del hogar adquiridos- electrodomesticos",
+    "valores": {}
+  },
+  "sg42d2": {
+    "etiqueta": "Gastos por equipamiento del hogar adquiridos- transporte",
+    "valores": {}
+  },
+  "sg42d3": {
+    "etiqueta": "Gastos por equipamiento del hogar adquiridos- otros",
+    "valores": {}
+  },
+  "ingbruhd": {
+    "etiqueta": "Ingreso bruto actividad principal monetaria (dependiente)",
+    "valores": {}
+  },
+  "ingnethd": {
+    "etiqueta": "Ingreso neto de la actividad principal monetario (dependiente)",
+    "valores": {}
+  },
+  "pagesphd": {
+    "etiqueta": "Ingreso por pago en especie de la actividad principal",
+    "valores": {}
+  },
+  "ingindhd": {
+    "etiqueta": "Ingreso por actividad principal independiente",
+    "valores": {}
+  },
+  "ingauthd": {
+    "etiqueta": "Ingreso por autoconsumo de la actividad principal independiente",
+    "valores": {}
+  },
+  "insedthd": {
+    "etiqueta": "Ingreso bruto de la actividad secundaria dependiente",
+    "valores": {}
+  },
+  "insedlhd": {
+    "etiqueta": "Ingreso neto de la actividad secundaria dependiente",
+    "valores": {}
+  },
+  "paesechd": {
+    "etiqueta": "Ingreso pago en especie de la actividad secundaria dependiente",
+    "valores": {}
+  },
+  "ingseihd": {
+    "etiqueta": "Ingreso neto de la actividad secundaria independiente",
+    "valores": {}
+  },
+  "isecauhd": {
+    "etiqueta": "Ingreso por autoconsumo de la actividad secundaria independiente",
+    "valores": {}
+  },
+  "ingexthd": {
+    "etiqueta": "Ingresos extraordinarios por trabajo",
+    "valores": {}
+  },
+  "ingtrahd": {
+    "etiqueta": "Ingreso por transferencias corrientes monetarias del pais",
+    "valores": {}
+  },
+  "ingtexhd": {
+    "etiqueta": "Ingreso por transferencias corrientes del extranjero",
+    "valores": {}
+  },
+  "ingrenhd": {
+    "etiqueta": "Ingreso por rentas de la propiedad monetaria",
+    "valores": {}
+  },
+  "ingoexhd": {
+    "etiqueta": "Otros Ingresos extraordinarios",
+    "valores": {}
+  },
+  "g05hd": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar - pago",
+    "valores": {}
+  },
+  "ig06hd": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar-no pago",
+    "valores": {}
+  },
+  "g05hd1": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar en otro hogar- pago",
+    "valores": {}
+  },
+  "ig06hd1": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar - otro hogar-no pago",
+    "valores": {}
+  },
+  "g05hd2": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar prepara sus Alimentos - pago",
+    "valores": {}
+  },
+  "ig06hd2": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar - prepara sus aliment",
+    "valores": {}
+  },
+  "g05hd3": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar prepara sus alim en su centro de",
+    "valores": {}
+  },
+  "ig06hd3": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar - prepara sus alimentos en",
+    "valores": {}
+  },
+  "g05hd4": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar en el aula del centro educativo",
+    "valores": {}
+  },
+  "ig06hd4": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar- aula de su centro educativo",
+    "valores": {}
+  },
+  "g05hd5": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar a autoconsumo",
+    "valores": {}
+  },
+  "ig06hd5": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar - autonsumo-no pago",
+    "valores": {}
+  },
+  "g05hd6": {
+    "etiqueta": "Gastos por Alimentos consumidos fuera del hogar campamento - pago",
+    "valores": {}
+  },
+  "ig06hd6": {
+    "etiqueta": "Ingresos y Gastos por Alimentos consumidos fuera del hogar - campamento-no pago",
+    "valores": {}
+  },
+  "g07hd": {
+    "etiqueta": "Otros Gastos - pago",
+    "valores": {}
+  },
+  "ig08hd": {
+    "etiqueta": "Ingresos y Gastos, otros - no pago",
+    "valores": {}
+  },
+  "ingtprhd": {
+    "etiqueta": "Ingreso por transferencia corrientes privada",
+    "valores": {}
+  },
+  "ingtpuhd": {
+    "etiqueta": "Ingreso por transferencia corrientes publica",
+    "valores": {}
+  },
+  "ingtpu01": {
+    "etiqueta": "Ingreso por transferencia corrientes  publica: JUNTOS",
+    "valores": {}
+  },
+  "ingtpu02": {
+    "etiqueta": "Ingreso por transferencias corrientes  publicas otros",
+    "valores": {}
+  },
+  "ingtpu03": {
+    "etiqueta": "Ingreso por transferencias corrientes publicas: Pension 65",
+    "valores": {}
+  },
+  "ingtpu04": {
+    "etiqueta": "Ingreso por transferencias corrientes publicas: Beca 18",
+    "valores": {}
+  },
+  "ingtpu05": {
+    "etiqueta": "Ingreso por transferencias corrientes publicas: Bono de Gas",
+    "valores": {}
+  },
+  "ingtpu10": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Bono electricidad",
+    "valores": {}
+  },
+  "ingtpu11": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Bono niño",
+    "valores": {}
+  },
+  "ingtpu12": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Bono ONP para jubilados",
+    "valores": {}
+  },
+  "ingtpu13": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Programa contigo",
+    "valores": {}
+  },
+  "ingtpu14": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Bono Yanapay",
+    "valores": {}
+  },
+  "ingtpu15": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Asistencia economica por orfandad por el COVID 19",
+    "valores": {}
+  },
+  "ingtpu16": {
+    "etiqueta": "Ingreso por transferencias corrientes públicas Bono alimentario",
+    "valores": {}
+  },
+  "gru11hd": {
+    "etiqueta": "Grupo 1: Alimentos - gasto",
+    "valores": {}
+  },
+  "gru12hd1": {
+    "etiqueta": "Grupo 1: Alimentos - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru12hd2": {
+    "etiqueta": "Grupo 1: Alimentos - pago en especie",
+    "valores": {}
+  },
+  "gru13hd1": {
+    "etiqueta": "Grupo 1: Alimentos - donacion publica",
+    "valores": {}
+  },
+  "gru13hd2": {
+    "etiqueta": "Grupo 1: Alimentos - donacion privada",
+    "valores": {}
+  },
+  "gru13hd3": {
+    "etiqueta": "Grupo 1: Alimentos - otros Gastos",
+    "valores": {}
+  },
+  "gru13hd4": {
+    "etiqueta": "Grupo 1: Alimentos consumidos dentro hogar -bienes libres",
+    "valores": {}
+  },
+  "gru14hd": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - pagado",
+    "valores": {}
+  },
+  "gru14hd1": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - autoconsumo , autosuministro",
+    "valores": {}
+  },
+  "gru14hd2": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - especie",
+    "valores": {}
+  },
+  "gru14hd3": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - donado  publico",
+    "valores": {}
+  },
+  "gru14hd4": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - donado privado",
+    "valores": {}
+  },
+  "gru14hd5": {
+    "etiqueta": "Alimentos preparados consumir en el hogar - otros",
+    "valores": {}
+  },
+  "gru14hd6": {
+    "etiqueta": "Grupo 1: Alimentos consumidos fuera del hogar -bienes libres",
+    "valores": {}
+  },
+  "gru21hd": {
+    "etiqueta": "Grupo 2: Vestido y calzado - gasto",
+    "valores": {}
+  },
+  "gru22hd1": {
+    "etiqueta": "Grupo 2: Vestido y calzado - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru22hd2": {
+    "etiqueta": "Grupo 2: Vestido y calzado - pago en especie",
+    "valores": {}
+  },
+  "gru23hd1": {
+    "etiqueta": "Grupo 2: Vestido y calzado - donacion publica",
+    "valores": {}
+  },
+  "gru23hd2": {
+    "etiqueta": "Grupo 2: Vestido y calzado - donacion privada",
+    "valores": {}
+  },
+  "gru23hd3": {
+    "etiqueta": "Grupo 2: Vestido y calzado - otros",
+    "valores": {}
+  },
+  "gru24hd": {
+    "etiqueta": "Grupo 2: Vestido y calzado - no gasto, no sabe",
+    "valores": {}
+  },
+  "gru31hd": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru32hd1": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru32hd2": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru33hd1": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru33hd2": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru33hd3": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru34hd": {
+    "etiqueta": "Grupo 3: Alquiler de vivienda, combustible, electricidad y conservacion de la vivienda",
+    "valores": {}
+  },
+  "gru41hd": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - gasto",
+    "valores": {}
+  },
+  "gru42hd1": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru42hd2": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - pago en especie",
+    "valores": {}
+  },
+  "gru43hd1": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - donacion publica",
+    "valores": {}
+  },
+  "gru43hd2": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - donacion privada",
+    "valores": {}
+  },
+  "gru43hd3": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - otros",
+    "valores": {}
+  },
+  "gru44hd": {
+    "etiqueta": "Grupo 4: Muebles, enseres y mantenimiento de la vivienda - no gasto, no sabe",
+    "valores": {}
+  },
+  "gru51hd": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - gasto",
+    "valores": {}
+  },
+  "gru52hd1": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru53hd1": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - donacion publica",
+    "valores": {}
+  },
+  "gru53hd2": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - donacion privada",
+    "valores": {}
+  },
+  "gru53hd3": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - otros",
+    "valores": {}
+  },
+  "gru53hd4": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - bienes libres",
+    "valores": {}
+  },
+  "gru54hd": {
+    "etiqueta": "Grupo 5: Cuidado, conservacion de la salud y servicios medicos - no gasto, no s",
+    "valores": {}
+  },
+  "gru61hd": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - gasto",
+    "valores": {}
+  },
+  "gru62hd1": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru62hd2": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - pago en especie",
+    "valores": {}
+  },
+  "gru63hd1": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - donacion publica",
+    "valores": {}
+  },
+  "gru63hd2": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - donacion privada",
+    "valores": {}
+  },
+  "gru63hd3": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - otros",
+    "valores": {}
+  },
+  "gru64hd": {
+    "etiqueta": "Grupo 6: Transportes y comunicaciones - no gasto, no sabe",
+    "valores": {}
+  },
+  "gru71hd": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - gasto",
+    "valores": {}
+  },
+  "gru72hd1": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - autoconsumo",
+    "valores": {}
+  },
+  "gru72hd2": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - pago en especie",
+    "valores": {}
+  },
+  "gru73hd1": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - donacion",
+    "valores": {}
+  },
+  "gru73hd2": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - donacion",
+    "valores": {}
+  },
+  "gru73hd3": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - otros",
+    "valores": {}
+  },
+  "gru74hd": {
+    "etiqueta": "Grupo 7: Esparcimiento, diversion, servicios culturales y de enseñanza - no gasto",
+    "valores": {}
+  },
+  "gru81hd": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - gasto",
+    "valores": {}
+  },
+  "gru82hd1": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru82hd2": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - pago en especie",
+    "valores": {}
+  },
+  "gru83hd1": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - donacion publica",
+    "valores": {}
+  },
+  "gru83hd2": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - donacion privada",
+    "valores": {}
+  },
+  "gru83hd3": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - otros",
+    "valores": {}
+  },
+  "gru83hd4": {
+    "etiqueta": "Grupo 8: Alimentos para mascotas - bien libre",
+    "valores": {}
+  },
+  "gru84hd": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios - no gasto, no sabe",
+    "valores": {}
+  },
+  "gru84hd1": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales - pagado",
+    "valores": {}
+  },
+  "gru85hd1": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- autoconsumo, autosuministro",
+    "valores": {}
+  },
+  "gru86hd1": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- donado privado",
+    "valores": {}
+  },
+  "gru86hd2": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- donado - otro",
+    "valores": {}
+  },
+  "gru87hd": {
+    "etiqueta": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales-  no gasto, no",
+    "valores": {}
+  },
+  "ingmo1hd": {
+    "etiqueta": "Ingreso monetario (bruto)",
+    "valores": {}
+  },
+  "ingmo2hd": {
+    "etiqueta": "Ingreso monetario (neto)",
+    "valores": {}
+  },
+  "inghog1d": {
+    "etiqueta": "Ingreso bruto",
+    "valores": {}
+  },
+  "inghog2d": {
+    "etiqueta": "Ingreso neto Total",
+    "valores": {}
+  },
+  "gashog1d": {
+    "etiqueta": "Gasto monetario",
+    "valores": {}
+  },
+  "gashog2d": {
+    "etiqueta": "Gasto Total bruto",
+    "valores": {}
+  },
+  "estrsocial": {
+    "etiqueta": "Estrato Socio-Economico",
+    "valores": {
+      "1.0": "A",
+      "2.0": "B",
+      "3.0": "C",
+      "4.0": "D",
+      "5.0": "E",
+      "6.0": "Rural"
+    }
+  },
+  "ld": {
+    "etiqueta": "Deflactor espacial",
+    "valores": {}
+  },
+  "linpe": {
+    "etiqueta": "Linea de pobreza alimentaria",
+    "valores": {}
+  },
+  "linea": {
+    "etiqueta": "Linea de pobreza total",
+    "valores": {}
+  },
+  "pobreza": {
+    "etiqueta": "Pobreza",
+    "valores": {
+      "1.0": "Pobre Extremo",
+      "2.0": "Pobre No Extremo",
+      "3.0": "No Pobre"
+    }
+  },
+  "factor07": {
+    "etiqueta": "Factor de Expansion Anual Proyecciones CPV-2007",
+    "valores": {}
+  },
+  "lineav": {
+    "etiqueta": "Linea corriente de vulnerabilidad",
+    "valores": {}
+  },
+  "pobrezav": {
+    "etiqueta": "Pobreza y vulnerable con linea corriente",
+    "valores": {
+      "1.0": "Pobre extremo",
+      "2.0": "Pobre No extremo",
+      "3.0": "Vulnerable No pobre",
+      "4.0": "No Vulnerable"
+    }
+  },
+  "nconglome": {
+    "etiqueta": "Numero de conglomerado (proveniente del marco)",
+    "valores": {}
+  },
+  "sub_conglome": {
+    "etiqueta": "Numero de subconglomerado (proveniente del marco)",
+    "valores": {}
+  },
+  "periodo": {
+    "etiqueta": "Periodo de ejecucion de la Encuesta",
+    "valores": {}
+  },
+  "tipenc": {
+    "etiqueta": "Tipo de Seleccion del Conglomerado",
+    "valores": {
+      "1.0": "Seleccion Automatica por Computadora - area Urbana",
+      "3.0": "Seleccion por Muestra Panel",
+      "4.0": "Seleccion Automatica por Computadora - area Rural",
+      "5.0": "Seleccion por conteo de la encuestadora en el area Rural"
+    }
+  },
+  "fecent": {
+    "etiqueta": "Fecha de Resultado final de la encuesta ( Mes/Dia/Año)",
+    "valores": {}
+  },
+  "result": {
+    "etiqueta": "Resultado Final de la Encuesta",
+    "valores": {
+      "1.0": "Completa",
+      "2.0": "Incompleta",
+      "3.0": "Rechazo",
+      "4.0": "Ausente",
+      "5.0": "Vivienda Desocupada",
+      "6.0": "No se Inicio la Entrevista",
+      "7.0": "Otro"
+    }
+  },
+  "panel": {
+    "etiqueta": "¿El hogar fue entrevistado el año pasado?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p22": {
+    "etiqueta": "Ademas de esta vivienda, ¿Existe otra vivienda en la que usted o algun miembro de su hogar viven regularmente?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p23": {
+    "etiqueta": "¿En que distrito, provincia y departamento esta ubicada dicha vivienda?",
+    "valores": {}
+  },
+  "p24a": {
+    "etiqueta": "Las paredes exteriores de la vivienda tienen fachada: Con tarrajeo",
+    "valores": {
+      "1.0": "Total",
+      "2.0": "Parcial",
+      "3.0": "No esta tarrajeada",
+      "4.0": "No corresponde"
+    }
+  },
+  "p24b": {
+    "etiqueta": "Las paredes exteriores de la vivienda tienen fachada: Pintada",
+    "valores": {
+      "1.0": "Totalmente",
+      "2.0": "Parcialmente",
+      "3.0": "Sin pintar"
+    }
+  },
+  "p25$1": {
+    "etiqueta": "La calle, avenida,jiron, carretera, donde se ubica la vivienda tiene: Pista afaltada",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Pista asfaltada"
+    }
+  },
+  "p25$2": {
+    "etiqueta": "La calle, avenida,jiron, carretera, donde se ubica la vivienda tiene: Pista afirmada/tierra",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Pista afirmada/tierra"
+    }
+  },
+  "p25$3": {
+    "etiqueta": "La calle, avenida,jiron, carretera, donde se ubica la vivienda tiene: Veredas",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Veredas"
+    }
+  },
+  "p25$4": {
+    "etiqueta": "La calle, avenida,jiron, carretera, donde se ubica la vivienda tiene: Poste alumbrado publico",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Poste alumbrado publico"
+    }
+  },
+  "p25$5": {
+    "etiqueta": "La calle, avenida,jiron, carretera, donde se ubica la vivienda tiene: Ninguno",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Ninguno"
+    }
+  },
+  "p101": {
+    "etiqueta": "Tipo de vivienda",
+    "valores": {
+      "1.0": "Casa independiente",
+      "2.0": "Departamento en edificio",
+      "3.0": "Vivienda en quinta",
+      "4.0": "Vivienda en casa de vecindad (Callejon, solar o corralon)",
+      "5.0": "Choza o cabaña",
+      "6.0": "Vivienda improvisada",
+      "7.0": "Local no destinado para habitacion humana",
+      "8.0": "Otro"
+    }
+  },
+  "p102": {
+    "etiqueta": "El material predominante en las paredes exteriores es:",
+    "valores": {
+      "1.0": "Ladrillo o bloque de cemento",
+      "2.0": "Piedra o sillar con cal o cemento",
+      "3.0": "Adobe",
+      "4.0": "Tapia",
+      "5.0": "Quincha (caña con barro)",
+      "6.0": "Piedra con barro",
+      "7.0": "Madera (pona, tornillo, etc)",
+      "8.0": "Triplay/calamina/estera",
+      "9.0": "Otro material"
+    }
+  },
+  "p103": {
+    "etiqueta": "El material predominante en los pisos es:",
+    "valores": {
+      "1.0": "Parquet o madera pulida",
+      "2.0": "Laminas asfalticas, vinilicos o similares",
+      "3.0": "Losetas, terrazos o similares",
+      "4.0": "Madera (pona, tornillo, etc)",
+      "5.0": "Cemento",
+      "6.0": "Tierra",
+      "7.0": "Otro material"
+    }
+  },
+  "p103a": {
+    "etiqueta": "El material predominante en los techos es:",
+    "valores": {
+      "1.0": "Concreto armado",
+      "2.0": "Madera",
+      "3.0": "Tejas",
+      "4.0": "Planchas de calamina, fibra de cemento o similares",
+      "5.0": "Caña o estera con torta de barro o cemento",
+      "6.0": "Triplay/estera/carrizo",
+      "7.0": "Paja, hojas de palmera",
+      "8.0": "Otro material"
+    }
+  },
+  "p104": {
+    "etiqueta": "¿Cuantas habitaciones en total tiene la vivienda, sin contar el baño,la cocina, los pasadizos, ni el garage?",
+    "valores": {}
+  },
+  "p104a": {
+    "etiqueta": "¿Cuantas habitaciones se usan para exclusivamente para dormir?",
+    "valores": {}
+  },
+  "p104b1": {
+    "etiqueta": "¿La vivienda cuenta con licencia de construccion?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No",
+      "3.0": "No sabe"
+    }
+  },
+  "p104b2": {
+    "etiqueta": "¿La vivienda fue construida con asistencia tecnica de un ing. civil o arquitecto?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No",
+      "3.0": "No sabe"
+    }
+  },
+  "p105a": {
+    "etiqueta": "La vivienda que ocupa su hogar es:",
+    "valores": {
+      "1.0": "Alquilada",
+      "2.0": "Propia, totalmente pagada",
+      "3.0": "Propia, por invasion",
+      "4.0": "Propia, comprandola a plazos",
+      "5.0": "Cedida por el centro de trabajo",
+      "6.0": "Cedida por otro hogar o institucion",
+      "7.0": "Otra forma"
+    }
+  },
+  "p105b": {
+    "etiqueta": "Monto mensual por alquiler o compra de la vivienda (en S/.)",
+    "valores": {}
+  },
+  "p106": {
+    "etiqueta": "Si Ud. alquilara esta vivienda, ¿Cuanto cree que le pagarian de alquiler mensual (en S/.)?",
+    "valores": {}
+  },
+  "p106a": {
+    "etiqueta": "¿Esta vivienda tiene titulo de propiedad?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No",
+      "3.0": "En tramite de titulacion"
+    }
+  },
+  "p106b": {
+    "etiqueta": "¿El titulo de la vivienda esta Registrado en la SUNARP?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107b1": {
+    "etiqueta": "En los ultimos 12 meses, de ... a ...¿Ud. o algun miembro del hogar ha obtenido algun credito o prestamo destinado a: Comprar casa, departamento?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c11": {
+    "etiqueta": "¿El credito fue otorgado por: Banco privado?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c12": {
+    "etiqueta": "¿El credito fue otorgado por: Banco de la Nacion?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c13": {
+    "etiqueta": "¿El credito fue otorgado por: Caja Municipal?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c14": {
+    "etiqueta": "¿El credito fue otorgado por: Persona Particular?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c16": {
+    "etiqueta": "¿El credito fue otorgado por: Techo propio?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c17": {
+    "etiqueta": "¿El credito fue otorgado por: Financiera de Ahorro y Credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c18": {
+    "etiqueta": "¿El credito fue otorgado por: Otro?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c19": {
+    "etiqueta": "¿El credito fue otorgado por: Cooperativa de ahorro y credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c110": {
+    "etiqueta": "¿El credito fue otorgado por: Derrama Magisterial?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107d1": {
+    "etiqueta": "¿Cual fue el Monto Total del Credito recibido?",
+    "valores": {}
+  },
+  "p107b2": {
+    "etiqueta": "En los ultimos 12 meses, de ... a ...¿Ud. o algun miembro del hogar ha obtenido algun credito o prestamo destinado a: Comprar terreno para vivienda?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c21": {
+    "etiqueta": "¿El credito fue otorgado por: Banco privado?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c22": {
+    "etiqueta": "¿El credito fue otorgado por: Banco de la Nacion?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c23": {
+    "etiqueta": "¿El credito fue otorgado por: Caja Municipal ?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c24": {
+    "etiqueta": "¿El credito fue otorgado por: Persona Particular?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c26": {
+    "etiqueta": "¿El credito fue otorgado por: Techo propio ?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c27": {
+    "etiqueta": "¿El credito fue otorgado por: Financiera de Ahorro y Credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c28": {
+    "etiqueta": "¿El credito fue otorgado por: Otro?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c29": {
+    "etiqueta": "¿El credito fue otorgado por: Cooperativa de ahorro y credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c210": {
+    "etiqueta": "¿El credito fue otorgado por: Derrama Magisterial?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107d2": {
+    "etiqueta": "¿Cual fue el Monto Total del Credito recibido:?",
+    "valores": {}
+  },
+  "p107b3": {
+    "etiqueta": "En los ultimos 12 meses, de ... a ...¿Ud. o algun miembro del hogar ha obtenido algun credito o prestamo destinado a: Mejoramiento y/o ampliacion de la vivienda?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c31": {
+    "etiqueta": "¿El credito fue otorgado por: Banco privado?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c32": {
+    "etiqueta": "¿El credito fue otorgado por: Banco de la Nacion?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c33": {
+    "etiqueta": "¿El credito fue otorgado por: Caja Municipal?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c34": {
+    "etiqueta": "¿El credito fue otorgado por: Persona Particular?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c36": {
+    "etiqueta": "¿El credito fue otorgado por: Techo propio?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c37": {
+    "etiqueta": "¿El credito fue otorgado por: Financiera de Ahorro y Credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c38": {
+    "etiqueta": "¿El credito fue otorgado por: Otro?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c39": {
+    "etiqueta": "¿El credito fue otorgado por: Cooperativa de ahorro y credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c310": {
+    "etiqueta": "¿El credito fue otorgado por: Derrama Magisterial?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107d3": {
+    "etiqueta": "¿Cual fue el Monto Total del Credito recibido:?",
+    "valores": {}
+  },
+  "p107b4": {
+    "etiqueta": "En los ultimos 12 meses, de ... a ...¿Ud. o algun miembro del hogar ha obtenido algun credito o prestamo destinado a: Construccion de vivienda nueva?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c41": {
+    "etiqueta": "¿El credito fue otorgado por: Banco privado?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c42": {
+    "etiqueta": "¿El credito fue otorgado por: Banco de la Nacion?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c43": {
+    "etiqueta": "¿El credito fue otorgado por: Caja Municipal ?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c44": {
+    "etiqueta": "¿El credito fue otorgado por: Persona Particular?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c46": {
+    "etiqueta": "¿El credito fue otorgado por: Techo propio?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c47": {
+    "etiqueta": "¿El credito fue otorgado por: Financiera de Ahorro y Credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c48": {
+    "etiqueta": "¿El credito fue otorgado por: Otro?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c49": {
+    "etiqueta": "¿El credito fue otorgado por: Cooperativa de ahorro y credito?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107c410": {
+    "etiqueta": "¿El credito fue otorgado por: Derrama Magisterial?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p107d4": {
+    "etiqueta": "¿Cual fue el Monto Total del Credito recibido?",
+    "valores": {}
+  },
+  "p107e": {
+    "etiqueta": "¿Ha tenido dificultades que le han impedido cumplir con el cronograma de pagos del credito o prestamo obtenido?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p110": {
+    "etiqueta": "El agua que utilizan en el hogar ¿Procede principalmente de:",
+    "valores": {
+      "1.0": "Red publica, dentro de la vivienda",
+      "2.0": "Red publica, fuera de la vivienda pero dentro del edificio",
+      "3.0": "Pilon o pileta de uso publico",
+      "4.0": "Camion-cisterna u otro similar",
+      "5.0": "Pozo (agua subterranea)",
+      "6.0": "Manantial o puquio",
+      "7.0": "Otra",
+      "8.0": "Rio, acequia, lago, laguna"
+    }
+  },
+  "p110a1": {
+    "etiqueta": "¿El agua es potable?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p110a": {
+    "etiqueta": "Nivel de Cloro Residual del agua (Variable recodificada P110A_modificada)",
+    "valores": {
+      "1.0": "Seguro (Mayor o igual a 0.5 mg/Lt)",
+      "2.0": "Inadecuada dosificacion de Cloro (De 0.1 mg/Lt a menos de 0.5 mg/Lt)",
+      "3.0": "Sin Cloro (0.0 mg/Lt)"
+    }
+  },
+  "p110a_modificada": {
+    "etiqueta": "Nivel de Cloro Residual del agua (Transcripcion de valores de kit comparador)",
+    "valores": {}
+  },
+  "p110c": {
+    "etiqueta": "El hogar tiene acceso al servicio de agua todos los dias de la semana",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p110c1": {
+    "etiqueta": "Cuantas horas al dia",
+    "valores": {}
+  },
+  "p110c2": {
+    "etiqueta": "Cuantos dias a la semana tiene este servicio",
+    "valores": {}
+  },
+  "p110c3": {
+    "etiqueta": "Cuantas horas al dia",
+    "valores": {}
+  },
+  "p110d": {
+    "etiqueta": "La muestra de agua fue extraida por",
+    "valores": {
+      "1.0": "El funcionario de la encuesta",
+      "2.0": "El informante"
+    }
+  },
+  "p110e": {
+    "etiqueta": "La muestra del agua se extrajo del",
+    "valores": {
+      "1.0": "Grifo o caño",
+      "2.0": "Cilindro de metal",
+      "3.0": "Balde o batea de plastico",
+      "4.0": "Tanque (sin filtro)",
+      "5.0": "Tanque (con filtro)",
+      "6.0": "Bidon, botella, etc.",
+      "7.0": "Otro"
+    }
+  },
+  "p110f": {
+    "etiqueta": "¿Pagan por el servicio de agua?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p110g": {
+    "etiqueta": "¿A que empresa o entidad se paga por el servicio de agua?",
+    "valores": {
+      "1.0": "Empresa prestadora de servicios (EPE- SEDA-EMAPA)",
+      "2.0": "Municipalidad",
+      "3.0": "Organizacion Comunal",
+      "4.0": "Camion cisterna",
+      "5.0": "Otro"
+    }
+  },
+  "p111a": {
+    "etiqueta": "El baño o servicio higienico que tiene su hogar esta conectado a:",
+    "valores": {
+      "1.0": "Red publica de desagüe dentro de la vivienda",
+      "2.0": "Red publica de desagüe fuera de la vivienda pero dentro del edificio",
+      "3.0": "Letrina (con tratamiento)",
+      "4.0": "Pozo septico, tanque septico o biodigestor",
+      "5.0": "Pozo ciego o negro",
+      "6.0": "Rio, acequia, canal o similar",
+      "7.0": "Otra",
+      "9.0": "Campo abierto o al aire libre"
+    }
+  },
+  "p1121": {
+    "etiqueta": "Tipo de alumbrado del hogar: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Electricidad"
+    }
+  },
+  "p1123": {
+    "etiqueta": "Tipo de alumbrado del hogar: Petroleo/Gas (lampara)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Petroleo/gas(Lampara)"
+    }
+  },
+  "p1124": {
+    "etiqueta": "Tipo de alumbrado del hogar: Vela",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Vela"
+    }
+  },
+  "p1125": {
+    "etiqueta": "Tipo de alumbrado del hogar: Generador",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Generador"
+    }
+  },
+  "p1126": {
+    "etiqueta": "Tipo de alumbrado del hogar: Otro",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Otro"
+    }
+  },
+  "p1127": {
+    "etiqueta": "No utiliza alumbrado en el hogar",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "No utiliza alumbrado en el hogar"
+    }
+  },
+  "p112a": {
+    "etiqueta": "El servicio electrico de su hogar es:",
+    "valores": {
+      "1.0": "Con medidor de uso exclusivo para la vivienda",
+      "2.0": "Con medidor de uso colectivo (Para varias viviendas)",
+      "3.0": "Otro"
+    }
+  },
+  "p1131": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Electricidad"
+    }
+  },
+  "p1132": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Gas (balon GLP)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Gas (Balon GLP)"
+    }
+  },
+  "p1133": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Gas Natural (Sistema de tuberias)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Gas Natural (sistema de tuberias)"
+    }
+  },
+  "p1135": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Carbon",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Carbon"
+    }
+  },
+  "p1136": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Leña",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Leña"
+    }
+  },
+  "p1139": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Bosta, estiercol",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Bosta, estiercol"
+    }
+  },
+  "p1137": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar sus alimentos: Otro",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Otro(Residuos agricolas, etc)."
+    }
+  },
+  "p1138": {
+    "etiqueta": "No cocinan",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "No cocinan"
+    }
+  },
+  "p113a": {
+    "etiqueta": "Combustible que usan en el hogar para cocinar: Mayor Frecuencia",
+    "valores": {
+      "1.0": "Electricidad",
+      "2.0": "Gas (Balon GLP)",
+      "3.0": "Gas Natural (sistema de tuberias)",
+      "5.0": "Carbon",
+      "6.0": "Leña",
+      "7.0": "Otro",
+      "8.0": "No cocinan"
+    }
+  },
+  "p1141": {
+    "etiqueta": "Su hogar tiene: Telefono (fijo)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Telefono(fijo)"
+    }
+  },
+  "p1142": {
+    "etiqueta": "Su hogar tiene: Telefono Celular",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Telefono Celular"
+    }
+  },
+  "p1143": {
+    "etiqueta": "Su hogar tiene: Conexion a TV por cable o satelital",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Conexion a TV por  cable o satelital"
+    }
+  },
+  "p1144": {
+    "etiqueta": "Su hogar tiene: Conexion a Internet",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Conexion a Internet"
+    }
+  },
+  "p1145": {
+    "etiqueta": "El hogar no tiene: Telefono fijo, celular, TV cable, Internet",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "No tiene"
+    }
+  },
+  "p114b1": {
+    "etiqueta": "Conexion a internet a traves de : conexion fija",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Conexion fija"
+    }
+  },
+  "p114b2": {
+    "etiqueta": "Conexion a internet a traves de : conexion movil post pago control",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Conexion movil post pago control"
+    }
+  },
+  "p114b3": {
+    "etiqueta": "Conexion a internet a traves de : conexion movil prepago",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Conexion movil prepago"
+    }
+  },
+  "p1171$01": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Agua",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Agua"
+    }
+  },
+  "p1171$02": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Electricidad"
+    }
+  },
+  "p1171$04": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas (Balon GLP)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Gas (Balon GLP)"
+    }
+  },
+  "p1171$05": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Gas Natural (Sistema de tuberias)"
+    }
+  },
+  "p1171$06": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Vela",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Vela"
+    }
+  },
+  "p1171$07": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Carbon",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Carbon"
+    }
+  },
+  "p1171$08": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Leña",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Leña"
+    }
+  },
+  "p1171$09": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Petroleo",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Petroleo"
+    }
+  },
+  "p1171$10": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gasolina",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Gasolina"
+    }
+  },
+  "p1171$11": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Telefono",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Telefono fijo"
+    }
+  },
+  "p1171$12": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Celular",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Celular"
+    }
+  },
+  "p1171$13": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: TV Cable o satelital",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "TV cable o satelital"
+    }
+  },
+  "p1171$14": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Internet"
+    }
+  },
+  "p1171$15": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Otro",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Otro"
+    }
+  },
+  "p1171$16": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Bosta, estiercol",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Bosta, estiercol"
+    }
+  },
+  "p1171$17": {
+    "etiqueta": "El ultimo gasto ... : internet (portatil)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Internet (portatil)"
+    }
+  },
+  "p1172$01": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Agua, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$02": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Electricidad, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$04": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas (Balon GLP), pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$05": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas Natural (Sistema de tuberias), pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$06": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Vela, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$07": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Carbon, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$08": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Leña, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$09": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Petroleo, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$10": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gasolina, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$11": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Telefono fijo, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$12": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Celular, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$13": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: TV Cable o satelital, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$14": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$15": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Otro, pagado por  algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$16": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Bosta, estiercol, pagado por algun  miembro de este hogar",
+    "valores": {}
+  },
+  "p1172$17": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet (portatil), ¿Pagado por un miembro de este hogar?",
+    "valores": {}
+  },
+  "p1173$01": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Agua, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$02": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Electricidad, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$04": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas (Balon GLP), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$05": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas Natural (Sistema de tuberias), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$06": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Vela, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$07": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Carbon, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$08": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Leña, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$09": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Petroleo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$10": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gasolina, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$11": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Telefono fijo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$12": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Celular, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$13": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: TV Cable o satelital, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$14": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$15": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Otro, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$16": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Bosta, estiercol, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p1173$17": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet (portatil), ¿Donado o regalado por algun miembro de otro hogar?",
+    "valores": {}
+  },
+  "p1174$01": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Agua, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$02": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Electricidad, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$04": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas (Balon GLP), autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$05": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias), autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$06": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Vela, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$07": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Carbon, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$08": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Leña, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$09": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Petroleo, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$10": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gasolina, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$11": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Telefono, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$12": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Celular, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$13": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: TV Cable o satelital, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$14": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$15": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Otro, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$16": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Bosta,estiercol, autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "p1174$17": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet (portatil), ¿Autoconsumo o autosuministro?",
+    "valores": {}
+  },
+  "p1175$01": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Agua",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Incluido en el alquiler",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$02": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Electricidad",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Incluido en el alquiler",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$04": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas (Balon GLP)",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$05": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias)",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Incluido en el alquiler",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$06": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Vela",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$07": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Carbon",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$08": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Leña",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$09": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Petroleo",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$10": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Gasolina",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$11": {
+    "etiqueta": "El ultimo gasto mensual por consumo de:Telefono fijo",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$12": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Celular",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$13": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: TV Cable o satelital",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Incluido en el alquiler",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$14": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Internet",
+    "valores": {
+      "0.0": "Pase",
+      "1.0": "Incluido en el alquiler",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde",
+      "4.0": "Incluido en el celular"
+    }
+  },
+  "p1175$15": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Otro",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$16": {
+    "etiqueta": "El ultimo gasto mensual por consumo de: Bosta, estiercol",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p1175$17": {
+    "etiqueta": "El ultimo gasto ...: Internet (portatil)",
+    "valores": {
+      "0.0": "Pase",
+      "2.0": "No gasto",
+      "3.0": "No sabe/No responde"
+    }
+  },
+  "p117t2": {
+    "etiqueta": "Total gasto mensual (S/.) pagado por algun miembro del hogar",
+    "valores": {}
+  },
+  "p117t3": {
+    "etiqueta": "Total gasto mensual (S/.) donado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "p117t4": {
+    "etiqueta": "Total gasto mensual (S/.) por autoconsumo o autosuministro",
+    "valores": {}
+  },
+  "t110": {
+    "etiqueta": "(Re-codificado ) El abastecimiento de agua en su hogar procede de:",
+    "valores": {
+      "1.0": "Red publica, dentro de la vivienda",
+      "2.0": "Red publica, fuera de la vivienda pero dentro del edificio",
+      "3.0": "Pilon o pileta de uso publico",
+      "4.0": "Camion - cisterna u otro similar",
+      "5.0": "Pozo (agua subterranea)",
+      "6.0": "Manantial o puquio",
+      "7.0": "Otra",
+      "8.0": "Rio, acequia, lago, laguna",
+      "9.0": "Agua potable del vecino"
+    }
+  },
+  "p200i": {
+    "etiqueta": "Codigo de informante del Capitulo 200",
+    "valores": {}
+  },
+  "p600i": {
+    "etiqueta": "Codigo de informante de los gastos del hogar",
+    "valores": {}
+  },
+  "p600d1": {
+    "etiqueta": "Dia - Periodo de referencia para los gastos del hogar (inicio)",
+    "valores": {}
+  },
+  "p600m1": {
+    "etiqueta": "Mes - Periodo de referencia para los gastos del hogar (inicio)",
+    "valores": {}
+  },
+  "p600a1": {
+    "etiqueta": "Año - Periodo de referencia para los gastos del hogar (inicio)",
+    "valores": {}
+  },
+  "p600d2": {
+    "etiqueta": "Dia - Periodo de referencia para los gastos del hogar (termino)",
+    "valores": {}
+  },
+  "p600m2": {
+    "etiqueta": "Mes - Periodo de referencia para los gastos del hogar (termino)",
+    "valores": {}
+  },
+  "p600a2": {
+    "etiqueta": "Año - Periodo de referencia para los gastos del hogar (termino)",
+    "valores": {}
+  },
+  "p612i1": {
+    "etiqueta": "En los ultimos 12 meses, ¿El hogar ha vendido: Bienes raices(vivienda, terrenos, propiedad rural, etc.)?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p612i11": {
+    "etiqueta": "En los ultimos 12 meses, ¿El hogar ha vendido: Valor vendido de las Bienes raices",
+    "valores": {}
+  },
+  "p612i2": {
+    "etiqueta": "En los ultimos 12 meses, ¿El hogar ha vendido: Equipos del hogar(auto, tv, cocina, etc.)?",
+    "valores": {
+      "1.0": "Si",
+      "2.0": "No"
+    }
+  },
+  "p612i22": {
+    "etiqueta": "En los ultimos 12 meses, ¿El hogar ha vendido: Valor vendido de los equipos de hogar",
+    "valores": {}
+  },
+  "p700i": {
+    "etiqueta": "Codigo de informante del Capitulo 700",
+    "valores": {}
+  },
+  "p710i": {
+    "etiqueta": "Codigo de informante del Capitulo 700A",
+    "valores": {}
+  },
+  "p800i": {
+    "etiqueta": "Codigo de informante del Capitulo  800",
+    "valores": {}
+  },
+  "p110i": {
+    "etiqueta": "Numero de la persona informante del Capitulo Calidad bacteriologica del agua",
+    "valores": {}
+  },
+  "ticuest01": {
+    "etiqueta": "Origen de cuestionario",
+    "valores": {
+      "1.0": "Cuestionario en hojas",
+      "2.0": "Cuestionario en Tablet"
+    }
+  },
+  "d105b": {
+    "etiqueta": "(Deflactado) Monto mensual por alquiler o compra de la vivienda?",
+    "valores": {}
+  },
+  "d106": {
+    "etiqueta": "(Defl.) ¿Cuanto cree que le pagarian de alquiler mensual?",
+    "valores": {}
+  },
+  "d107d1": {
+    "etiqueta": "(Defl.) En los ultimos 12 meses...¿Ud. o algun miembro de su hogar ha obtenido algun credito o prestamo destinado a: Comprar casa, departamento?",
+    "valores": {}
+  },
+  "d107d2": {
+    "etiqueta": "(Defl.) En los ultimos 12 meses...¿Ud. o algun miembro de su hogar ha obtenido algun credito o prestamo destinado a: Comprar terreno para vivienda?",
+    "valores": {}
+  },
+  "d107d3": {
+    "etiqueta": "(Defl.) En los ultimos 12 meses...¿Ud. o algun miembro de su hogar ha obtenido algun credito o prestamo destinado a: Mejoramiento y/o ampliacion de la vivienda?",
+    "valores": {}
+  },
+  "d107d4": {
+    "etiqueta": "(Defl.) En los ultimos 12 meses...¿Ud. o algun miembro de su hogar ha obtenido algun credito o prestamo destinado a: Construccion de vivienda nueva?",
+    "valores": {}
+  },
+  "d1172$01": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Agua, pagado por  miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$01": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Agua, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$01": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Agua, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$02": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Electricidad, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$02": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Electricidad, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$02": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Electricidad, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$04": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas (Balon GLP), pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$04": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas (Balon GLP), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$04": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas (Balon GLP), por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$05": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas Natural (Sitema de tuberias), pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$05": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas Natural (Sistema de tuberias), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$05": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gas Natural (sistema de tuberias), por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$06": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Vela, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$06": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Vela, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$06": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Vela, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$07": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Carbon, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$07": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Carbon, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$07": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Carbon, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$08": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Leña, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$08": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Leña, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$08": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Leña, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$09": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Petroleo, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$09": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Petroleo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$09": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Petroleo, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$10": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gasolina, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$10": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gasolina, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$10": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Gasolina, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$15": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Otro, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$15": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Otro, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$15": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Otro, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$16": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Bosta, estiercol, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$16": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Bosta, estiercol, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$16": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Bosta, estiercol, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d612i11": {
+    "etiqueta": "(Defl.) En los ultimos 12 meses, ¿El hogar ha vendido: Valor vendido de las Bienes raices)",
+    "valores": {}
+  },
+  "d1172$11": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Telefono fijo, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$11": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Telefono fijo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$11": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Telefono fijo, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$12": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Celular, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$12": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Celular, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$12": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Celular, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$13": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: TV Cable o satelital, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$13": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: TV Cable o satelital, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$13": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: TV Cable o satelital, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$14": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Internet, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "d1173$14": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Internet, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "d1174$14": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual...de: Internet, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "d1172$17": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual.. de: Internet(portatil), pagado",
+    "valores": {}
+  },
+  "d1173$17": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual.. de: Internet(portatil), Donado",
+    "valores": {}
+  },
+  "d1174$17": {
+    "etiqueta": "(Defl.) El ultimo gasto mensual.. de: Internet(portatil), por autoconsumo",
+    "valores": {}
+  },
+  "d612i22": {
+    "etiqueta": " (Defl.) En los ultimos 12 meses, ¿El hogar ha vendido: Valor vendido de los equipos de hogar)",
+    "valores": {}
+  },
+  "i105b": {
+    "etiqueta": "(Imp.) ¿Cual es el monto mensual de alquiler / venta del hogar?",
+    "valores": {}
+  },
+  "i106": {
+    "etiqueta": "(Imp.) ¿Cuanto cree que le pagarian de alquiler mensual?",
+    "valores": {}
+  },
+  "i1172$01": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Agua, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$02": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Electricidad, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$04": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas (Balon GLP), pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$05": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias), pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$06": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Vela, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$07": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Carbon, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$08": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Leña, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$09": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Petroleo, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$10": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gasolina, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$11": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Telefono fijo, pagado por algunmiembro de este hogar",
+    "valores": {}
+  },
+  "i1172$12": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Celular, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$13": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: TV Cable o satelital, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$14": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Internet, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$17": {
+    "etiqueta": "(Imp.) el último gasto mensual.. de: internet(portatil), pagado",
+    "valores": {}
+  },
+  "i1172$15": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Otro, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1172$16": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Bosta, estiercol, pagado por algun miembro de este hogar",
+    "valores": {}
+  },
+  "i1173$01": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Agua, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$01": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Agua, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$02": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Electricidad, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$02": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Electricidad, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$04": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas (Balon GLP), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$04": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas (Balon GLP), por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$05": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias), donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$05": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gas Natural (sistema de tuberias), por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$06": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Vela, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$06": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Vela, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$07": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Carbon, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$07": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Carbon, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$08": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Leña, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$08": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Leña, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$09": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Petroleo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$09": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Petroleo, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$10": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gasolina, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$10": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Gasolina, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$11": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Telefono fijo, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$11": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Telefono fijo, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$12": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Celular, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$12": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Celular, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$13": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: TV Cable o satelital, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$13": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: TV Cable o satelital, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$14": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Internet, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$14": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Internet, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$15": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Otro, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$15": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Otro, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$16": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Bosta, estiercol, donado o regalado por algun miembro de otro hogar",
+    "valores": {}
+  },
+  "i1174$16": {
+    "etiqueta": "(Imp.) El ultimo gasto mensual por consumo de: Bosta, estiercol, por autoconsumo/autosuministro",
+    "valores": {}
+  },
+  "i1173$17": {
+    "etiqueta": "(Imputado) El último gasto mensual.. de: Internet(portatil), donado por",
+    "valores": {}
+  },
+  "i1174$17": {
+    "etiqueta": "(Imputado) El último gasto mensual.. de: Internet(portatil), por autoconsumo",
+    "valores": {}
+  },
+  "t111a": {
+    "etiqueta": "Recodificada  El baño o servicio higienico que tiene su hogar",
+    "valores": {
+      "1.0": "Red publica de desagüe dentro de la vivienda",
+      "2.0": "Red publica de desagüe fuera de la vivienda pero dentro del edificio",
+      "3.0": "Letrina (Con tratamiento)",
+      "4.0": "Pozo septico, tanque septico o biodigestor",
+      "5.0": "Pozo ciego o negro",
+      "6.0": "Rio, acequia, canal o similar",
+      "7.0": "Otra",
+      "9.0": "Campo abierto o al aire libre",
+      "10.0": "Letrina (Sin tratamiento)",
+      "11.0": "Letrina (Tipo compostera)"
+    }
+  },
+  "nbi1": {
+    "etiqueta": "Vivienda inadecuada (Necesidad Basica Insatisfecha 1 )",
+    "valores": {
+      "0.0": "Vivienda adecuada",
+      "1.0": "Vivienda inadecuada"
+    }
+  },
+  "nbi2": {
+    "etiqueta": "Vivienda con hacinamiento (Necesidad Basica Insatisfecha 2 )",
+    "valores": {
+      "0.0": "Vivienda sin hacinamiento",
+      "1.0": "Vivienda con hacinamiento"
+    }
+  },
+  "nbi3": {
+    "etiqueta": "Hogares con vivienda sin ss.hh. (Necesidad Basica Insatisfecha 3 )",
+    "valores": {
+      "0.0": "Hogares con vivienda con servicios higienicos",
+      "1.0": "Hogares con vivienda sin servicios higienicos"
+    }
+  },
+  "nbi4": {
+    "etiqueta": "Hogares con niños que no asisten a la escuela (Necesidad Basica Insatisfecha 4 )",
+    "valores": {
+      "0.0": "Hogares con niños que asisten a la escuela",
+      "1.0": "Hogares con niños que no asisten a la escuela"
+    }
+  },
+  "nbi5": {
+    "etiqueta": "Hogares con alta dependencia economica (Necesidad Basica Insatisfecha 5)",
+    "valores": {
+      "0.0": "Hogares sin alta dependencia economica",
+      "1.0": "Hogares con alta dependencia economica"
+    }
+  },
+  "codccpp": {
+    "etiqueta": "Codigo del centro poblado",
+    "valores": {}
+  },
+  "nomccpp": {
+    "etiqueta": "Nombre del centro poblado",
+    "valores": {}
+  },
+  "longitud": {
+    "etiqueta": "Longitud",
+    "valores": {}
+  },
+  "latitud": {
+    "etiqueta": "Latitud",
+    "valores": {}
+  },
+  "altitud": {
+    "etiqueta": "Altitud",
+    "valores": {}
+  }
+}
