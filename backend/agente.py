@@ -1,15 +1,12 @@
 """
 backend/agente.py
 -------------------------------------------------------------
-Agente "Pregúntale a la ENAHO" (versión simple, 1 paso a la vez).
+Agente "Pregúntale a la ENAHO" (orquestado con crewAI).
 
-Flujo:  pregunta en español
-        -> Gemini escribe el SQL  (DuckDB, sobre tu parquet)
-        -> se ejecuta el SQL
-        -> Gemini interpreta el resultado en español
-
-Herramienta del curso aquí: Gemini API (cuenta como API tipo OpenAI).
-La capa crewAI la agregamos en el siguiente paso.
+Flujo principal (crewAI):
+  pregunta -> Analista ENAHO (SQL + ejecución) -> Redactor -> interpretación
+Fallback (simple, 1 paso a la vez):
+  pregunta -> generar_sql -> ejecutar -> interpretar
 -------------------------------------------------------------
 """
 import os
@@ -22,6 +19,8 @@ import duckdb
 from dotenv import load_dotenv
 from google import genai
 from google.genai import errors as gerr
+from crewai import Agent, Task, Crew, Process, LLM
+from crewai.tools import tool
 
 load_dotenv()  # lee GEMINI_API_KEY desde el archivo .env
 
@@ -135,8 +134,8 @@ def interpretar(pregunta: str, df) -> str:
     return resp.text.strip()
 
 
-def consultar(pregunta: str):
-    """Devuelve (sql, dataframe, interpretacion)."""
+def _consultar_simple(pregunta: str):
+    """Fallback: flujo original sin crewAI. Devuelve (sql, dataframe, interpretacion)."""
     con = duckdb.connect()
     sql = generar_sql(pregunta)
     if not sql.lower().lstrip().startswith("select"):
@@ -144,11 +143,98 @@ def consultar(pregunta: str):
     try:
         df = con.execute(sql).df()
     except Exception as e:
-        # un reintento, pasándole el error a Gemini para que lo corrija
         sql = generar_sql(pregunta, error_previo=str(e))
         df = con.execute(sql).df()
     interpretacion = interpretar(pregunta, df)
     return sql, df, interpretacion
+
+
+# --- Capa crewAI ---
+
+_ULTIMO: dict = {'sql': None, 'df': None}
+
+_llm = LLM(
+    model='gemini/gemini-2.5-flash',
+    api_key=os.environ.get("GEMINI_API_KEY"),
+)
+
+
+@tool("ejecutar_sql")
+def ejecutar_sql(sql: str) -> str:
+    """Ejecuta una consulta SQL SELECT sobre el archivo parquet de la ENAHO y devuelve una vista previa del resultado."""
+    global _ULTIMO
+    sql = _limpiar_sql(sql)
+    if not sql.lower().lstrip().startswith("select"):
+        return "Error: solo se permiten consultas SELECT."
+    con = duckdb.connect()
+    df = con.execute(sql).df()
+    _ULTIMO = {'sql': sql, 'df': df}
+    return df.head().to_string()
+
+
+def _hacer_crew() -> Crew:
+    analista = Agent(
+        role='Analista de datos ENAHO',
+        goal=(
+            'Dada la pregunta del usuario, escribir el SQL correcto siguiendo '
+            'las reglas del sistema y ejecutarlo con la herramienta ejecutar_sql.'
+        ),
+        backstory=SISTEMA,
+        tools=[ejecutar_sql],
+        llm=_llm,
+        verbose=False,
+    )
+    redactor = Agent(
+        role='Redactor',
+        goal=(
+            'Interpretar el resultado de la consulta SQL y redactar una respuesta '
+            'breve en español con cifras legibles.'
+        ),
+        backstory='Eres experto en comunicar estadísticas del INEI Perú de forma clara y accesible.',
+        llm=_llm,
+        verbose=False,
+    )
+    tarea_sql = Task(
+        description=(
+            'Pregunta: {pregunta}\n'
+            'Escribe el SQL siguiendo EXACTAMENTE las reglas del sistema y ejecútalo '
+            'con la herramienta ejecutar_sql.'
+        ),
+        expected_output='Vista previa del resultado de la consulta SQL ejecutada.',
+        agent=analista,
+    )
+    tarea_interpretacion = Task(
+        description=(
+            'Con el resultado de la consulta anterior, redacta una respuesta clara y breve '
+            'en español que responda la pregunta: {pregunta}. '
+            'Usa cifras legibles (ej. 9.4 millones, 27.6%). '
+            'No inventes datos que no estén en el resultado.'
+        ),
+        expected_output='Interpretación en español del resultado de la ENAHO.',
+        agent=redactor,
+    )
+    return Crew(
+        agents=[analista, redactor],
+        tasks=[tarea_sql, tarea_interpretacion],
+        process=Process.sequential,
+        verbose=False,
+    )
+
+
+def consultar(pregunta: str):
+    """Devuelve (sql, dataframe, interpretacion)."""
+    try:
+        _ULTIMO['sql'] = None
+        _ULTIMO['df'] = None
+        crew = _hacer_crew()
+        resultado = crew.kickoff(inputs={'pregunta': pregunta})
+        sql = _ULTIMO['sql']
+        df = _ULTIMO['df']
+        if sql is None or df is None:
+            raise ValueError("ejecutar_sql no guardó resultados.")
+        return sql, df, resultado.raw
+    except Exception:
+        return _consultar_simple(pregunta)
 
 
 if __name__ == "__main__":
