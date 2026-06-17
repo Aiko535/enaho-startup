@@ -1,0 +1,7 @@
+streamlit
+google-genai
+crewai
+duckdb
+pandas
+pyarrow
+python-dotenv
