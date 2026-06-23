@@ -1,0 +1,84 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+    <marker id="arrow2s" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#b45309"/>
+    </marker>
+    <marker id="arrow2e" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="620" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Arquitectura — Pregúntale a la ENAHO</text>
+
+  <!-- Usuario -->
+  <rect x="350" y="56" width="260" height="46" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+  <text x="480" y="84" text-anchor="middle" font-size="15" font-weight="600" fill="#1e293b">Usuario (navegador)</text>
+
+  <!-- arrow user->streamlit -->
+  <line x1="480" y1="102" x2="480" y2="132" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="492" y="121" font-size="12" fill="#64748b">pregunta en español</text>
+
+  <!-- Streamlit -->
+  <rect x="350" y="132" width="260" height="54" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="480" y="154" text-anchor="middle" font-size="15" font-weight="600" fill="#1e293b">Frontend · Streamlit</text>
+  <text x="480" y="172" text-anchor="middle" font-size="12" fill="#475569">desplegado en Streamlit Community Cloud</text>
+
+  <!-- arrow streamlit->crew -->
+  <line x1="480" y1="186" x2="480" y2="214" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="492" y="204" font-size="12" fill="#64748b">consultar(pregunta)</text>
+
+  <!-- crewAI container -->
+  <rect x="330" y="214" width="300" height="252" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+  <text x="345" y="234" font-size="13" font-weight="700" fill="#b45309">Backend · crewAI  (backend/agente.py)</text>
+
+  <!-- Agente 1 -->
+  <rect x="360" y="246" width="240" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="480" y="266" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1e293b">Agente 1 · Analista SQL</text>
+  <text x="480" y="283" text-anchor="middle" font-size="11.5" fill="#475569">escribe el SQL (vía Gemini)</text>
+
+  <line x1="480" y1="296" x2="480" y2="320" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Tool DuckDB -->
+  <rect x="360" y="320" width="240" height="50" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="480" y="340" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1e293b">Tool · ejecutar_sql → DuckDB</text>
+  <text x="480" y="357" text-anchor="middle" font-size="11.5" fill="#475569">corre el SQL sobre el parquet</text>
+
+  <line x1="480" y1="370" x2="480" y2="394" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Agente 2 -->
+  <rect x="360" y="394" width="240" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="480" y="414" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1e293b">Agente 2 · Redactor</text>
+  <text x="480" y="431" text-anchor="middle" font-size="11.5" fill="#475569">interpreta el resultado (vía Gemini)</text>
+
+  <!-- Gemini API external -->
+  <rect x="690" y="250" width="210" height="190" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="795" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">Servicio de IA</text>
+  <text x="795" y="352" text-anchor="middle" font-size="13" fill="#1e293b">Gemini API</text>
+  <text x="795" y="372" text-anchor="middle" font-size="12" fill="#475569">gemini-2.5-flash</text>
+  <!-- connectors gemini <-> agents -->
+  <line x1="600" y1="271" x2="690" y2="300" stroke="#b45309" stroke-width="1.6" stroke-dasharray="5,3" marker-start="url(#arrow2s)" marker-end="url(#arrow2e)"/>
+  <line x1="600" y1="419" x2="690" y2="392" stroke="#b45309" stroke-width="1.6" stroke-dasharray="5,3" marker-start="url(#arrow2s)" marker-end="url(#arrow2e)"/>
+
+  <!-- Datos -->
+  <rect x="60" y="318" width="210" height="86" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="165" y="340" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1e293b">Datos (en el repo)</text>
+  <text x="165" y="359" text-anchor="middle" font-size="11.5" fill="#1e293b">enaho_hogar.parquet</text>
+  <text x="165" y="376" text-anchor="middle" font-size="11.5" fill="#1e293b">catalogo_mini.json</text>
+  <text x="165" y="393" text-anchor="middle" font-size="11" fill="#475569">ENAHO 2024 · INEI</text>
+  <!-- connector datos <-> duckdb -->
+  <line x1="270" y1="345" x2="360" y2="345" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- return arrow user -->
+  <path d="M 330 419 L 40 419 L 40 79 L 344 79" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  <text x="48" y="250" font-size="12" fill="#16a34a" font-weight="600">respuesta en</text>
+  <text x="48" y="266" font-size="12" fill="#16a34a" font-weight="600">español</text>
+
+  <!-- Legend -->
+  <rect x="330" y="500" width="18" height="18" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="356" y="514" font-size="12.5" fill="#475569">Herramientas del curso: crewAI + Gemini API (tipo OpenAI)</text>
+  <text x="480" y="552" text-anchor="middle" font-size="12" fill="#94a3b8">Todo el código es público en GitHub · El demo corre en una URL pública sin instalar nada</text>
+</svg>
